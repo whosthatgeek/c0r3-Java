@@ -1,0 +1,20 @@
+Index: welcome/src/leet/Leet.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- welcome/src/leet/Leet.java	(revision 9a1848891930a70c9d3e80889307d738e6d4a7f6)
++++ welcome/src/leet/Leet.java	(date 1554833114386)
+@@ -11,11 +11,10 @@
+         String toL557 = scanner.nextLine();
+         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+         List<String> l33t7 = new ArrayList<>();
+-        System.out.println(toL557.length());
++
+         for (int i = 0; i < toL557.length(); i++) {
+             switch (toL557.substring(i, i + 1)) {
+                 case " ":
+-                    System.out.println("A");
+                     l33t7.add(" ");
+                     break;
+                 case "A":

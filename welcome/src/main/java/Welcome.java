@@ -4,8 +4,9 @@ public class Welcome {
     var welcome = args[0];
     StringBuffer sb = new StringBuffer();
     for (int i = 0; i < welcome.length(); i++) sb.append("=");
-    System.out.println(sb.toString());
+    var deco = sb.toString();
+    System.out.println(deco);
     System.out.println(welcome);
-    System.out.println(sb.toString());
+    System.out.println(deco);
   }
 }

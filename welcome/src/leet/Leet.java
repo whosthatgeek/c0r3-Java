@@ -20,8 +20,11 @@ public class Leet {
                 case "A":
                     l33t7.add("4");
                     break;
-                case "C":
+                case "B":
                     l33t7.add("8");
+                    break;
+                case "C":
+                    l33t7.add("(");
                     break;
                 case "D":
                     l33t7.add("[)");

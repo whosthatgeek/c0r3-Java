@@ -11,11 +11,10 @@ public class Leet {
         String toL557 = scanner.nextLine();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
         List<String> l33t7 = new ArrayList<>();
-        System.out.println(toL557.length());
+
         for (int i = 0; i < toL557.length(); i++) {
             switch (toL557.substring(i, i + 1)) {
                 case " ":
-                    System.out.println("A");
                     l33t7.add(" ");
                     break;
                 case "A":

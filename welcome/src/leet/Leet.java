@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Leet {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("please enter the sentence that you would like to translate in l337:");
         String toL557 = scanner.nextLine();
@@ -93,6 +93,8 @@ public class Leet {
                 case "Z":
                     l33t7.add("2 ");
                     break;
+                default:
+                    throw new IllegalAccessException(("You entered a character that is not supported yet"));
             }
         }
         l33t7.forEach(System.out::print);
